@@ -1,0 +1,10 @@
+Formatting tags
+
+<b> for bold text</b>
+<u> for underline the text</u>
+<i> for italic text</i>
+<sub> for subscript </sub>
+<sup> for superscript</sup>
+
+<hr> for horizontal ruling
+<pre>
