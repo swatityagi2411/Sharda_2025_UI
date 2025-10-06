@@ -1,0 +1,63 @@
+
+/*universal Selector*/
+*
+{
+    margin:5px;
+    padding:5px;
+}
+
+/*Element Selector*/
+h1{
+    color:blue;
+    background-color: azure;
+}
+
+/* Id selector*/
+#heading-title
+{
+    color:blue;
+    background-color: bisque;
+}
+/*Class Selector*/
+.highlight
+{
+    color:brown;
+    background-color: yellowgreen;
+    margin: 2px;
+}
+
+/*Group Selector*/
+h1,h2,h3{
+    color:red;
+    background-color:beige;
+}
+
+/*Psuedo classes*/
+a:hover{
+    color:greenyellow;
+}
+
+ul li:first-child
+{
+    font-weight: bolder;
+}
+
+ul li:nth-child(2)
+{
+    color:blueviolet;
+}
+
+/*psuedo classes- style parts of elements*/
+p::first-letter{
+    font-weight: bolder;
+}
+
+p::first-line
+{
+    color:black;
+}
+
+p::before{
+    content:":)";
+    color:blue;
+}

@@ -7,4 +7,10 @@ Formatting tags
 <sup> for superscript</sup>
 
 <hr> for horizontal ruling
-<pre>
+<pre> for pre text formatting to keep data as written as elements.
+
+Table: these tags allows to create Table in row col format
+<table> root tags //border is an attribute to table tag to set borders of table
+<tr> to create row every time to insert headings or data
+<th> to give headings to column
+<td>to give data against to given heads

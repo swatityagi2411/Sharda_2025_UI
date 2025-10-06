@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Form Handling</title>
+    </head>
+
+    <body>
+        <h1> Registration Form-Form Handling</h1>
+<!--
+        action-route where user will be routed when user submit the form
+        method-Get,Post
+        encryption type-generally used when we upload images or file
+        -->
+
+        <form action="#" method="GET" enctype="multipart/form-data">
+            <label for="username"> Enter Your Name</label>
+            <input type="text" maxlength="10" placeholder="provide your full name" required autofocus><br><br>
+            
+            <label for="useremail">Enter your email</label>
+            <input type="email" required placeholder="Provide correct email"><br><br>
+
+            <label for="password">Enter Password</label>
+            <input type="password" required placeholder="Generate password"><br><br>
+
+            <label for="contact">Enter your contact number</label>
+            <input type="number" required placeholder="Provide mobile number"><br><br>
+
+            <label for="age">Enter your age</label>
+            <input type="number" required placeholder="Provide your age" max="30" min="10"><br><br>
+
+            <label for="DOB">Enter your date of birth</label>
+            <input type="date"><br>
+            <input type="time"><br>
+            <input type="datetime-local"><br><br>
+
+            <label for="Upload">Upload your image</label>
+            <input type="file"><br><br>
+
+            <label> Gender</label>
+            <input type="radio" name="gender" value="m" >male
+            <input type="radio" name="gender" value="f">female
+<br><br>
+            <label>Hobbies</label><br>
+            <input type="checkbox">Cricket
+            <input type="checkbox">reading
+            <input type="checkbox">Painting
+            <input type="checkbox">Music
+<br><br>
+            <label>Range</label>
+            <input type="range"><br><br>
+
+            <label>Progress</label>
+            <progress value="50" max="100"></progress><br><br>
+
+            <select>
+                <option>Select country</option>
+
+                <optgroup label="Asia">
+                    <option value="ind">India</option>
+                    <option value="china">China</option>
+                    <option>Srilanka</option>
+
+
+                </optgroup>
+
+                <optgroup label="Europe">
+                    <option>England</option>
+                    <option>France</option>
+                    <option>Germany</option>
+
+
+                </optgroup>
+
+
+            </select>
+
+            <input type="submit">
+            <input type="reset">
+
+            
+
+        </form>
+    </body>
+</html>
